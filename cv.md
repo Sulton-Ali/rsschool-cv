@@ -25,3 +25,8 @@ I study programming because I like things that will help people in their daily l
 2. [Movie Search](https://sultonali-ali-movie-search.netlify.app/ "Movie Search" )
 3. [English for Kids](https://sultonali-ali-english-for-kids.netlify.app "English for Kids" )
 4. [Fancy Weather](https://sultonali-ali-fancy-weather.netlify.app "Fancy Weather" )
+
+### Education
+
++ National University of Uzbekistan, faculty of Mathematics faculty, direction of Applied mathematics and informatics
++ RSSchools JS/FE 2020Q1

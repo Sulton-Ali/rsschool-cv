@@ -1,2 +1,2 @@
 
-https://github.com/Sulton-Ali/rsschool-cv/cv
+https://sulton-ali.github.io/rsschool-cv/cv

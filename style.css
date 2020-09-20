@@ -4,12 +4,35 @@
 }
 
 body {
+    background: url("assets/images/triangles.png");
     font-family: 'JetBrains Mono', sans-serif;
+    color: #ffffff;
 }
 
 .wrapper {
     width: 1024px;
     margin: 0 auto;
+}
+
+/****** header ******/
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background: url("assets/images/pexels-tranmautritam.jpg") no-repeat center center;
+    background-size: cover;
+    width: 1024px;
+    height: 700px;
+    color: black;
+
+    border-radius: 20px;
+    box-shadow: 0 0 12px whitesmoke;
+}
+
+.header__title {
+
 }
 
 /****** education ******/

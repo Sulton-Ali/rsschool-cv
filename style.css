@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url("assets/fonts/JetBrainsMono.woff2");
+}
+
+body {
+    background: url("assets/images/triangles.png");
+    font-family: 'JetBrains Mono', sans-serif;
+    color: #ffffff;
+}
+
+section:hover {
+    box-shadow: 0 0 10px 5px red;
+}
+
+.wrapper {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+/****** header ******/
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background: url("assets/images/pexels-tranmautritam.jpg") no-repeat center center;
+    background-size: cover;
+    width: 1024px;
+    height: 700px;
+    color: black;
+
+    border-radius: 20px;
+    box-shadow: 0 0 12px whitesmoke;
+}
+
+
+/****** summary ******/
+
+.summary,
+.education,
+.skills,
+.experience {
+    margin-top: 30px;
+    box-shadow: 0 0 20px 10px rgba(0,0,0, 0.7);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+/****** education ******/
+.education__list {
+    list-style: url("assets/icons/study.png");
+}
+
+/****** skills ******/
+.skills__list{
+    list-style: url("assets/icons/user.png");
+}
+
+/****** experience ******/
+
+.experience {
+    color: #ffffff;
+    text-decoration: none;
+}

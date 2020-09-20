@@ -9,6 +9,10 @@ body {
     color: #ffffff;
 }
 
+section:hover {
+    box-shadow: 0 0 10px 5px red;
+}
+
 .wrapper {
     width: 1024px;
     margin: 0 auto;
@@ -31,8 +35,17 @@ body {
     box-shadow: 0 0 12px whitesmoke;
 }
 
-.header__title {
 
+/****** summary ******/
+
+.summary,
+.education,
+.skills,
+.experience {
+    margin-top: 30px;
+    box-shadow: 0 0 20px 10px rgba(0,0,0, 0.7);
+    border-radius: 20px;
+    padding: 20px;
 }
 
 /****** education ******/
@@ -43,4 +56,11 @@ body {
 /****** skills ******/
 .skills__list{
     list-style: url("assets/icons/user.png");
+}
+
+/****** experience ******/
+
+.experience {
+    color: #ffffff;
+    text-decoration: none;
 }

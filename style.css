@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url("assets/fonts/JetBrainsMono.woff2");
+}
+
+body {
+    font-family: 'JetBrains Mono', sans-serif;
+}
+
+.wrapper {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+/****** education ******/
+.education__list {
+    list-style: url("assets/icons/study.png");
+}
+
+/****** skills ******/
+.skills__list{
+    list-style: url("assets/icons/user.png");
+}
